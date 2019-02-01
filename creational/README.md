@@ -12,7 +12,7 @@
 
 ## Шаблоны
 
-* абстрактная фабрика (abstract factory)
+* [абстрактная фабрика(abstract factory)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
 * строитель (builder)
 * фабричный метод (factory method)
 * ленивая инициализация (lazy initialization)

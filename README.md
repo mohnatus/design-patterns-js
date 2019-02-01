@@ -1,14 +1,14 @@
 # Шаблоны проектирования (JavaScript)
 
-* creational - порождающие шаблоны
-  * абстрактная фабрика (abstract factory)
+* [creational - порождающие шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/creational)
+  * [абстрактная фабрика (abstract factory)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
   * строитель (builder)
   * фабричный метод (factory method)
   * ленивая инициализация (lazy initialization)
   * пул объектов (object pool)
   * прототип (prototype)
   * одиночка (singleton)
-* structural - структурные шаблоны
+* [structural - структурные шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/structural)
   * Адаптер (Adapter)
   * Мост (Bridge)
   * Компоновщик (Composite)
@@ -16,7 +16,7 @@
   * Фасад (Facade)
   * Приспособленец (Flyweight)
   * Заместитель (Proxy)
-* behavioral - поведенческие шаблоны
+* [behavioral - поведенческие шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral)
   * Цепочка ответственности (Chain of responsibilily)
   * Команда (Command)
   * Интерпретатор (Interpreter)
