@@ -9,10 +9,10 @@
 
 ## Шаблоны
 
-* Адаптер (Adapter)
+* [Адаптер (Adapter)](https://github.com/Mohnatus/design-patterns-js/tree/master/adapter)
 * Мост (Bridge)
 * Компоновщик (Composite)
 * [Декоратор (Decorator)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/decorator)
-* Фасад (Facade)
+* [Фасад (Facade)][Адаптер (Adapter)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
 * Приспособленец (Flyweight)
 * Заместитель (Proxy)
