@@ -1,1 +1,32 @@
-# design-patterns-js
+# Шаблоны проектирования (JavaScript)
+
+* creational - порождающие шаблоны
+  * абстрактная фабрика (abstract factory)
+  * строитель (builder)
+  * фабричный метод (factory method)
+  * ленивая инициализация (lazy initialization)
+  * пул объектов (object pool)
+  * прототип (prototype)
+  * одиночка (singleton)
+* structural - структурные шаблоны
+  * Адаптер (Adapter)
+  * Мост (Bridge)
+  * Компоновщик (Composite)
+  * Декоратор (Decorator)
+  * Фасад (Facade)
+  * Приспособленец (Flyweight)
+  * Заместитель (Proxy)
+* behavioral - поведенческие шаблоны
+  * Цепочка ответственности (Chain of responsibilily)
+  * Команда (Command)
+  * Интерпретатор (Interpreter)
+  * Итератор (Iterator)
+  * Посредник (Mediator)
+  * Хранитель (Memento)
+  * Null Object
+  * Наблюдатель (Observer)
+  * Слуга (Servant)
+  * Состояние (State)
+  * Стратегия (Strategy)
+  * Шаблонный метод (Template method)
+  * Посетитель (Visitor)
