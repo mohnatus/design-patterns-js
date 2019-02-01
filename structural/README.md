@@ -13,6 +13,6 @@
 * Мост (Bridge)
 * Компоновщик (Composite)
 * [Декоратор (Decorator)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/decorator)
-* [Фасад (Facade)][Адаптер (Adapter)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
+* [Фасад (Facade)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
 * Приспособленец (Flyweight)
 * Заместитель (Proxy)
