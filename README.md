@@ -7,7 +7,7 @@
   * ленивая инициализация (lazy initialization)
   * пул объектов (object pool)
   * прототип (prototype)
-  * одиночка (singleton)
+  * [одиночка (singleton)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/singleton)
 * [structural - структурные шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/structural)
   * Адаптер (Adapter)
   * Мост (Bridge)
