@@ -3,7 +3,7 @@
 * [creational - порождающие шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/creational)
   * [абстрактная фабрика (abstract factory)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
   * строитель (builder)
-  * фабричный метод (factory method)
+  * [фабричный метод (factory method)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/factoryMethod)
   * ленивая инициализация (lazy initialization)
   * пул объектов (object pool)
   * прототип (prototype)
