@@ -12,7 +12,7 @@
 ## Шаблоны
 
 * Цепочка ответственности (Chain of responsibilily)
-* Команда (Command)
+* [Команда (Command)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/command)
 * Интерпретатор (Interpreter)
 * Итератор (Iterator)
 * Посредник (Mediator)
