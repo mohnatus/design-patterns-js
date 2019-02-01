@@ -18,9 +18,9 @@
 * Посредник (Mediator)
 * Хранитель (Memento)
 * Null Object
-* Наблюдатель (Observer)
+* [Наблюдатель (Observer)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/observer)
 * Слуга (Servant)
 * Состояние (State)
-* [Стратегия (Strategy)]((https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/strategy))
+* [Стратегия (Strategy)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/strategy)
 * Шаблонный метод (Template method)
 * Посетитель (Visitor)
