@@ -20,7 +20,7 @@
   * Цепочка ответственности (Chain of responsibilily)
   * [Команда (Command)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/command)
   * Интерпретатор (Interpreter)
-  * Итератор (Iterator)
+  * [Итератор (Iterator)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/iterator)
   * Посредник (Mediator)
   * Хранитель (Memento)
   * Null Object
