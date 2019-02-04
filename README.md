@@ -11,7 +11,7 @@
 * [structural - структурные шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/structural)
   * [Адаптер (Adapter)](https://github.com/Mohnatus/design-patterns-js/tree/master/adapter)
   * Мост (Bridge)
-  * Компоновщик (Composite)
+  * [Компоновщик (Composite)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/composite)
   * Декоратор (Decorator)
   * [Фасад (Facade)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
   * Приспособленец (Flyweight)
