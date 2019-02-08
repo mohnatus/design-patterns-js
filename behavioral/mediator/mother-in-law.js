@@ -46,14 +46,18 @@ class Daddy extends Colleague {
     }
 
     notify(message) {
+        super.notify(message);
         if (message == 'bottle of beer') {
             this.rejoice();
         } else if (message == 'no beer') {
             this.anger();
+        } else if (message == 'Mammy swears at you') {
+            this.argue();
         }
     }
 
     getBeer() {
+        console.log(`${this.name}: I wanna beer`);
         this.mediator.send('I wanna beer', this);
     }
 
@@ -62,7 +66,7 @@ class Daddy extends Colleague {
     }
 
     anger() {
-        console.log(`${this.name}: 'Who the hell drank all my beer?`);
+        console.log(`${this.name}: Who the hell drank all my beer?`);
     }
 
     argue() {
@@ -77,10 +81,6 @@ class Refrigerator extends Colleague {
         this.bottles = 0;
     }
 
-    hasBeer() {
-        return this.bottles > 0;
-    }
-
     addBeer(bottles) {
         this.bottles = bottles;
     }
@@ -88,9 +88,9 @@ class Refrigerator extends Colleague {
     getBeer() {
         if (this.bottles > 0) {
             this.bottles--;
-            return 'bottle of beer';
+            return true;
         }
-        return 'no beer';
+        return false;
     }
 }
 
@@ -115,17 +115,17 @@ class MotherInLaw {
             message == 'I wanna beer' &&
             sender.name == 'Daddy'
         ) {
-            if (this.fridge.hasBeer()) {
-                this.daddy.notify(this.fridge.getBeer());
+            if (this.fridge.getBeer()) {
+                this.daddy.notify('bottle of beer');
                 this.mammy.notify('Daddy is drinking again')
             } else {
-                this.daddy.notify(this.fridge.getBeer());
+                this.daddy.notify('no beer');
             }
         } else if (
             message == 'the scandal begins' &&
             sender.name == 'Mammy'
         ) {
-            this.daddy.notify('Mammy swears')
+            this.daddy.notify('Mammy swears at you');
         }
     }
 }
@@ -141,6 +141,16 @@ motherInLaw.setDaddy(daddy);
 motherInLaw.setFridge(fridge);
 
 daddy.getBeer();
+// Daddy: I wanna beer
+// Daddy gets message: no beer
+// Daddy:Who the hell drank all my beer?
 
 fridge.addBeer(2);
 daddy.getBeer();
+// Daddy: I wanna beer
+// Daddy gets message: bottle of beer
+// Daddy: Yeeah! My beer!
+// Mammy gets message: Daddy is drinking again
+// Mammy: You are f*king alconaut!
+// Daddy gets message: Mammy swears at you
+// Daddy: I am a grown man!!!

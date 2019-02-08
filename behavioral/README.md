@@ -15,7 +15,7 @@
 * [Команда (Command)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/command)
 * Интерпретатор (Interpreter)
 * [Итератор (Iterator)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/iterator)
-* Посредник (Mediator)
+* [Посредник (Mediator)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/mediator)
 * Хранитель (Memento)
 * Null Object
 * [Наблюдатель (Observer)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/observer)
