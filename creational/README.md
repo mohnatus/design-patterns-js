@@ -12,10 +12,12 @@
 
 ## Шаблоны
 
-* [Абстрактная фабрика(abstract factory)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
-* [Строитель (builder)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/builder)
-* [Фабричный метод (factory method)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/factoryMethod)
-* [Отложенная инициализация (lazy initialization)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/lazyInitialization)
-* Пул объектов (object pool)
-* Прототип (prototype)
-* [Одиночка (singleton)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/singleton)
+* [Абстрактная фабрика (Abstract factory)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
+* [Строитель (Builder)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/builder)
+* [Фабричный метод (Factory method)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/factoryMethod)
+* [Отложенная инициализация (Lazy initialization)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/lazyInitialization)
+* Пул одиночек (Multiton)
+* Пул объектов (Object pool)
+* [Прототип (Prototype)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/prototype)
+* Получение ресурса есть инициализация (RAII)
+* [Одиночка (Singleton)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/singleton)
