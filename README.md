@@ -10,7 +10,7 @@
   * [Одиночка (Ssingleton)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/singleton)
 * [structural - структурные шаблоны](https://github.com/Mohnatus/design-patterns-js/tree/master/structural)
   * [Адаптер (Adapter)](https://github.com/Mohnatus/design-patterns-js/tree/master/adapter)
-  * Мост (Bridge)
+  * [Мост (Bridge)](https://github.com/Mohnatus/design-patterns-js/tree/master/bridge)
   * [Компоновщик (Composite)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/composite)
   * Декоратор (Decorator)
   * [Фасад (Facade)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
