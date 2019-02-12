@@ -14,5 +14,5 @@
 * [Компоновщик (Composite)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/composite)
 * [Декоратор (Decorator)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/decorator)
 * [Фасад (Facade)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
-* Приспособленец (Flyweight)
+* [Приспособленец (Flyweight)](https://github.com/Mohnatus/design-patterns-js/tree/master/flyweight)
 * Заместитель (Proxy)
