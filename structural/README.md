@@ -12,4 +12,4 @@
 * [Декоратор (Decorator)](./decorator)
 * [Фасад (Facade)](./facade)
 * [Приспособленец (Flyweight)](./flyweight)
-* Заместитель (Proxy)
+* [Заместитель (Proxy)](./proxy)
