@@ -34,5 +34,5 @@
 Все Строители создают некий абстрактный дом, каждый конкретный строитель уточняет параметры дома (этажность, строительные материалы, форму крыши). Директор вызывает нужные методы строителей.
 
 ## Похожие шаблоны
-* [Абстрактная фабрика](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
-* [Фабричный метод](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/factoryMethod)
+* [Абстрактная фабрика](../abstractFactory)
+* [Фабричный метод](../factoryMethod)

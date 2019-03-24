@@ -12,15 +12,15 @@
 ## Шаблоны
 
 * Цепочка ответственности (Chain of responsibilily)
-* [Команда (Command)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/command)
+* [Команда (Command)](./command)
 * Интерпретатор (Interpreter)
-* [Итератор (Iterator)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/iterator)
-* [Посредник (Mediator)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/mediator)
+* [Итератор (Iterator)](./iterator)
+* [Посредник (Mediator)](./mediator)
 * Хранитель (Memento)
 * Null Object
-* [Наблюдатель (Observer)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/observer)
+* [Наблюдатель (Observer)](./observer)
 * Слуга (Servant)
 * Состояние (State)
-* [Стратегия (Strategy)](https://github.com/Mohnatus/design-patterns-js/tree/master/behavioral/strategy)
+* [Стратегия (Strategy)](./strategy)
 * Шаблонный метод (Template method)
 * Посетитель (Visitor)

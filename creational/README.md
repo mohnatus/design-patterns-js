@@ -12,10 +12,10 @@
 
 ## Шаблоны
 
-* [Абстрактная фабрика (Abstract factory)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
-* [Строитель (Builder)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/builder)
-* [Фабричный метод (Factory method)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/factoryMethod)
-* [Отложенная инициализация (Lazy initialization)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/lazyInitialization)
-* [Пул объектов (Object pool)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/pool)
-* [Прототип (Prototype)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/prototype)
-* [Одиночка (Singleton)](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/singleton)
+* [Абстрактная фабрика (Abstract factory)](./abstractFactory)
+* [Строитель (Builder)](./builder)
+* [Фабричный метод (Factory method)](./factoryMethod)
+* [Отложенная инициализация (Lazy initialization)](./lazyInitialization)
+* [Пул объектов (Object pool)](./pool)
+* [Прототип (Prototype)](./prototype)
+* [Одиночка (Singleton)](./singleton)

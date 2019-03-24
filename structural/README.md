@@ -1,18 +1,15 @@
 # Структурные шаблоны проектирования
 
 ## Что абстрагируется?
+
 Способ объединения отдельных классов и объектов в более сложные структуры.
-
-## Зачем нужны?
-
-
 
 ## Шаблоны
 
-* [Адаптер (Adapter)](https://github.com/Mohnatus/design-patterns-js/tree/master/adapter)
-* [Мост (Bridge)](https://github.com/Mohnatus/design-patterns-js/tree/master/bridge)
-* [Компоновщик (Composite)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/composite)
-* [Декоратор (Decorator)](https://github.com/Mohnatus/design-patterns-js/tree/master/structural/decorator)
-* [Фасад (Facade)](https://github.com/Mohnatus/design-patterns-js/tree/master/facade)
-* [Приспособленец (Flyweight)](https://github.com/Mohnatus/design-patterns-js/tree/master/flyweight)
+* [Адаптер (Adapter)](./adapter)
+* [Мост (Bridge)](./bridge)
+* [Компоновщик (Composite)](./composite)
+* [Декоратор (Decorator)](./decorator)
+* [Фасад (Facade)](./facade)
+* [Приспособленец (Flyweight)](./flyweight)
 * Заместитель (Proxy)

@@ -58,5 +58,5 @@
 
 ## Похожие шаблоны
 
-* [Строитель](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/builder)
-* [Фабричный метод](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/factoryMethod)
+* [Строитель](../builder)
+* [Фабричный метод](../factoryMethod)

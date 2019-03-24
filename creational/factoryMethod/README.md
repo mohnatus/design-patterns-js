@@ -20,11 +20,11 @@
 
 ## Похожие шаблоны
 
-* [Строитель](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/builder)
-* [Абстрактная фабрика](https://github.com/Mohnatus/design-patterns-js/tree/master/creational/abstractFactory)
+* [Строитель](../builder)
+* [Абстрактная фабрика](../abstractFactory)
 
 ## Взаимодействие с другими шаблонами
 
-* [Приспособленец](https://github.com/Mohnatus/design-patterns-js/tree/master/flyweight)
+* [Приспособленец](../../structural/flyweight)
 
 Позволяет повторно использовать уже существующие объекты
