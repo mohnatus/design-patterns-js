@@ -19,7 +19,14 @@
     "adapter": "babel-node ./structural/adapter/cookies/index.js",
     "bridge": "babel-node ./structural/bridge/tic-tac-toe/index.js",
     "bridge:printer": "babel-node ./structural/bridge/printer/index.js",
-    "composite": "babel-node ./structural/composite/kitchen/index.js"
+    "composite": "babel-node ./structural/composite/kitchen/index.js",
+    "decorator:coffee": "babel-node ./structural/decorator/coffee/index.js",
+    "decorator:interpreter": "babel-node ./structural/decorator/interpreter/index.js",
+    "facade:cinema": "babel-node ./structural/facade/cinema/index.js",
+    "facade:price": "babel-node ./structural/facade/price/index.js",
+    "flyweight": "babel-node ./structural/flyweight/game/index.js",
+    "proxy:math": "babel-node ./structural/proxy/math/index.js",
+    "proxy:car": "babel-node ./structural/proxy/car/index.js"
   },
   "repository": {
     "type": "git",

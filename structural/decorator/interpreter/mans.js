@@ -17,5 +17,4 @@ class Interpreter {
   }
 }
 
-let foreigner = new Interpreter(new Frenchman());
-foreigner.hello(); // hello
+export { Frenchman, Interpreter };

@@ -30,7 +30,7 @@ class ParticlesFactory {
 
   getParticleType(type, color) {
     // найти похожую частицу в коллекции
-    // реализация метода find может быть любой
+    // реализация метода поиска может быть любой
     let particleType;
     for (let i = 0; i < this.types.length; i++) {
       if (this.types[i].type == type && this.types[i].color == color) {
@@ -39,9 +39,11 @@ class ParticlesFactory {
       }
     }
     // если такой частицы нет, создать новую
-    if (!particle) {
+    if (!particleType) {
       particleType = new ParticleType(type, color);
       this.types.push(particleType);
+    } else {
+      console.log(`Тип ${type} цвета ${color} уже существует`);
     }
     return particleType;
   }

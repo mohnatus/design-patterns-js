@@ -56,12 +56,4 @@ class Vanilla extends CoffeeDecorator {
   }
 }
 
-let coffee = new Espresso();
-coffee.getCost(); // 30
-coffee.getDescription(); // espresso
-
-let tastyCoffee = new Vanilla(new Caramel(new Espresso ()));
-tastyCoffee.getCost(); // 45
-tastyCoffee.getDescription(); // espresso with caramel with vanilla
-
-
+export { Espresso, Caramel, Vanilla };
