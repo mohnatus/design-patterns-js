@@ -1,0 +1,37 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "JavaScript design patterns",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "abstractFactory": "babel-node ./creational/abstractFactory/pizza/index.js",
+    "builder:building": "babel-node ./creational/builder/building/index.js",
+    "builder:request": "babel-node ./creational/builder/request/index.js",
+    "factoryMethod": "babel-node ./creational/factoryMethod/pizza/index.js",
+    "prototype": "babel-node ./creational/prototype/copy/index.js",
+    "singleton": "babel-node ./creational/singleton/president/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohnatus/design-patterns-js.git"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "gangoffour",
+    "javascript",
+    "design",
+    "patterns"
+  ],
+  "author": "FurryCat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohnatus/design-patterns-js/issues"
+  },
+  "homepage": "https://github.com/mohnatus/design-patterns-js#readme"
+}

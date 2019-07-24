@@ -8,7 +8,7 @@ class Builder {
   buildHouse() {};
 }
 
-// дом на сваях
+// Строитель домов на сваях
 class StiltsBuilder extends Builder {
   constructor() {
     super();
@@ -25,7 +25,7 @@ class StiltsBuilder extends Builder {
   }
 }
 
-// офисное здание
+// Строитель офисных зданий
 class OfficeBuilder extends Builder {
   constructor() {
     super();

@@ -1,3 +1,7 @@
+/**
+ * Директор управляет созданием нужного Строителя
+ */
+
 import { 
   StiltsBuilder, 
   OfficeBuilder 

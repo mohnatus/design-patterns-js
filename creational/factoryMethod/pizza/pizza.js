@@ -14,4 +14,4 @@ class ChicagoPizza extends Pizza {
   }
 }
 
-export { NYPizza, ChicagePizza };
+export { NYPizza, ChicagoPizza };

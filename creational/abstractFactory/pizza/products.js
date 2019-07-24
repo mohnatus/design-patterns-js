@@ -36,7 +36,7 @@ class PineappleAddition {
 export { 
   PepperoniMeat,
   ChickenMeat,
-  MustardSaouce,
+  MustardSauce,
   FirmSauce,
   MozarellaCheeze,
   VeganCheeze,

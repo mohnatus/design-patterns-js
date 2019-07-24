@@ -17,7 +17,7 @@ import {
   VeganCheeze,
   MushroomsAddition,
   PineappleAddition
-} from './products.js';
+} from './products';
 
 class PepperoniPizzaFactory {
   createMeat() {
@@ -55,19 +55,7 @@ class MushroomsPizzaFactory {
   }
 }
 
-let pepperoniFactory = new PepperoniPizzaFactory();
-// в обратной последовательности, чтобы картинка получилась :)
-pepperoniFactory.createSauce();
-pepperoniFactory.createCheeze();
-pepperoniFactory.createAddition();
-pepperoniFactory.createMeat();
-pepperoniFactory.createDough();
-
-
-/* вот ваша пицца */
-/*
---firm sauce-
---mozarella--
---pepperoni--
--------------
-*/
+export {
+  PepperoniPizzaFactory,
+  MushroomsPizzaFactory
+};
