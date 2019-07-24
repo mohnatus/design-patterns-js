@@ -1,14 +1,3 @@
-class TicTacToe {
-  constructor(implementation) {
-    this.imp = implementation; 
-  }
-  start() {
-    this.imp.draw();
-  }
-  // логика игры крестики-нолики
-}
-
-
 /*
 interface Implementation {
   draw() // отрисовать поле
@@ -29,6 +18,4 @@ class TicTacToe3D {
   finish() { /* Отобразить победителя в 3D */ }
 }
 
-let game = new TicTacToe(new TicTacToe3D());
-game.start(); // Поле нарисовано в 3D
-
+export { TicTacToeCanvas, TicTacToe3D };

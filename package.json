@@ -14,7 +14,12 @@
     "builder:request": "babel-node ./creational/builder/request/index.js",
     "factoryMethod": "babel-node ./creational/factoryMethod/pizza/index.js",
     "prototype": "babel-node ./creational/prototype/copy/index.js",
-    "singleton": "babel-node ./creational/singleton/president/index.js"
+    "singleton": "babel-node ./creational/singleton/president/index.js",
+
+    "adapter": "babel-node ./structural/adapter/cookies/index.js",
+    "bridge": "babel-node ./structural/bridge/tic-tac-toe/index.js",
+    "bridge:printer": "babel-node ./structural/bridge/printer/index.js",
+    "composite": "babel-node ./structural/composite/kitchen/index.js"
   },
   "repository": {
     "type": "git",
