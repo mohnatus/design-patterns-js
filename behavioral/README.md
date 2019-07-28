@@ -11,7 +11,7 @@
 
 ## Шаблоны
 
-* Цепочка ответственности (Chain of responsibilily)
+* [Цепочка обязанностей (Chain of responsibilily)](./chainOfResponsibility)
 * [Команда (Command)](./command)
 * Интерпретатор (Interpreter)
 * [Итератор (Iterator)](./iterator)

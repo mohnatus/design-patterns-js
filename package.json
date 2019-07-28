@@ -26,7 +26,9 @@
     "facade:price": "babel-node ./structural/facade/price/index.js",
     "flyweight": "babel-node ./structural/flyweight/game/index.js",
     "proxy:math": "babel-node ./structural/proxy/math/index.js",
-    "proxy:car": "babel-node ./structural/proxy/car/index.js"
+    "proxy:car": "babel-node ./structural/proxy/car/index.js",
+
+    "chainOfResponsibility": "babel-node ./behavioral/chainOfResponsibility/shopping/index.js"
   },
   "repository": {
     "type": "git",
