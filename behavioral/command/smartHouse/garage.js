@@ -1,13 +1,3 @@
-class Light {
-  on() {
-    console.log('свет включился');
-  }
-
-  off() {
-    console.log('свет выключился');
-  }
-}
-
 class Garage {
   up() {
     console.log('дверь гаража поднялась');
@@ -30,4 +20,4 @@ class Garage {
   }
 }
 
-export { Light, Garage };
+export { Garage };

@@ -13,7 +13,7 @@
 
 * [Цепочка обязанностей (Chain of responsibilily)](./chainOfResponsibility)
 * [Команда (Command)](./command)
-* Интерпретатор (Interpreter)
+* [Интерпретатор (Interpreter)](./interpreter)
 * [Итератор (Iterator)](./iterator)
 * [Посредник (Mediator)](./mediator)
 * Хранитель (Memento)

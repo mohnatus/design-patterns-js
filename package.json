@@ -28,7 +28,10 @@
     "proxy:math": "babel-node ./structural/proxy/math/index.js",
     "proxy:car": "babel-node ./structural/proxy/car/index.js",
 
-    "chainOfResponsibility": "babel-node ./behavioral/chainOfResponsibility/shopping/index.js"
+    "chainOfResponsibility": "babel-node ./behavioral/chainOfResponsibility/shopping/index.js",
+    "command": "babel-node ./behavioral/command/smartHouse/index.js",
+    "interpreter:math": "babel-node ./behavioral/interpreter/math/index.js",
+    "interpreter:roman": "babel-node ./behavioral/interpreter/roman/index.js"
   },
   "repository": {
     "type": "git",
