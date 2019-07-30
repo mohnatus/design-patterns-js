@@ -31,7 +31,8 @@
     "chainOfResponsibility": "babel-node ./behavioral/chainOfResponsibility/shopping/index.js",
     "command": "babel-node ./behavioral/command/smartHouse/index.js",
     "interpreter:math": "babel-node ./behavioral/interpreter/math/index.js",
-    "interpreter:roman": "babel-node ./behavioral/interpreter/roman/index.js"
+    "interpreter:roman": "babel-node ./behavioral/interpreter/roman/index.js",
+    "iterator": "babel-node ./behavioral/iterator/music/index.js"
   },
   "repository": {
     "type": "git",
