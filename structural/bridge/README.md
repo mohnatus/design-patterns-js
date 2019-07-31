@@ -3,7 +3,7 @@
 ## Команда для запуска кода
 
 ```
-npm run bridge
+npm run bridge:ticTacToe
 npm run bridge:printer
 ```
 

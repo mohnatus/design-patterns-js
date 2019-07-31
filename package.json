@@ -17,7 +17,7 @@
     "singleton": "babel-node ./creational/singleton/president/index.js",
 
     "adapter": "babel-node ./structural/adapter/cookies/index.js",
-    "bridge": "babel-node ./structural/bridge/tic-tac-toe/index.js",
+    "bridge:ticTacToe": "babel-node ./structural/bridge/tic-tac-toe/index.js",
     "bridge:printer": "babel-node ./structural/bridge/printer/index.js",
     "composite": "babel-node ./structural/composite/kitchen/index.js",
     "decorator:coffee": "babel-node ./structural/decorator/coffee/index.js",
@@ -32,7 +32,10 @@
     "command": "babel-node ./behavioral/command/smartHouse/index.js",
     "interpreter:math": "babel-node ./behavioral/interpreter/math/index.js",
     "interpreter:roman": "babel-node ./behavioral/interpreter/roman/index.js",
-    "iterator": "babel-node ./behavioral/iterator/music/index.js"
+    "iterator": "babel-node ./behavioral/iterator/music/index.js",
+    "mediator:motherInLaw": "babel-node ./behavioral/mediator/motherInLaw/index.js",
+    "mediator:traffic": "babel-node ./behavioral/mediator/traffic/index.js",
+    "memento": "babel-node ./behavioral/memento/base/index.js"
   },
   "repository": {
     "type": "git",

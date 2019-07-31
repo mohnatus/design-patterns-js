@@ -16,7 +16,7 @@
 * [Интерпретатор (Interpreter)](./interpreter)
 * [Итератор (Iterator)](./iterator)
 * [Посредник (Mediator)](./mediator)
-* Хранитель (Memento)
+* [Хранитель (Memento)](./memento)
 * Null Object
 * [Наблюдатель (Observer)](./observer)
 * Слуга (Servant)
