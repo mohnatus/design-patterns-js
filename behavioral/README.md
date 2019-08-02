@@ -20,7 +20,7 @@
 * Null Object
 * [Наблюдатель (Observer)](./observer)
 * Слуга (Servant)
-* Состояние (State)
+* [Состояние (State)](./state)
 * [Стратегия (Strategy)](./strategy)
 * Шаблонный метод (Template method)
 * Посетитель (Visitor)

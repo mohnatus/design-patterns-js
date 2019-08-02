@@ -35,7 +35,9 @@
     "iterator": "babel-node ./behavioral/iterator/music/index.js",
     "mediator:motherInLaw": "babel-node ./behavioral/mediator/motherInLaw/index.js",
     "mediator:traffic": "babel-node ./behavioral/mediator/traffic/index.js",
-    "memento": "babel-node ./behavioral/memento/base/index.js"
+    "memento": "babel-node ./behavioral/memento/base/index.js",
+    "observer": "babel-node ./behavioral/observer/station/index.js",
+    "state": "babel-node ./behavioral/state/order/index.js"
   },
   "repository": {
     "type": "git",
