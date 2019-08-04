@@ -7,7 +7,7 @@ import {
   OfficeBuilder 
 } from './builders.js';
 
-class Director {
+class Foreman {
   constructor(order) {
     if (order == 'stiltsHouse')
       this.builder = new StiltsBuilder();
@@ -23,4 +23,4 @@ class Director {
   }
 }
 
-export { Director };
+export { Foreman };

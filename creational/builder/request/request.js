@@ -10,7 +10,7 @@ class Request {
   }
 }
 
-class RequestPattern {
+class RequestBuilder {
   constructor() {
     this.request = new Request();
   }
@@ -39,4 +39,4 @@ class RequestPattern {
   }
 }
 
-export default RequestPattern;
+export default RequestBuilder;

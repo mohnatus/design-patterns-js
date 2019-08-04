@@ -9,12 +9,12 @@
   },
   "devDependencies": {},
   "scripts": {
-    "abstractFactory": "babel-node ./creational/abstractFactory/pizza/index.js",
+    "abstractFactory:pizza": "babel-node ./creational/abstractFactory/pizza/index.js",
     "builder:building": "babel-node ./creational/builder/building/index.js",
     "builder:request": "babel-node ./creational/builder/request/index.js",
-    "factoryMethod": "babel-node ./creational/factoryMethod/pizza/index.js",
-    "prototype": "babel-node ./creational/prototype/copy/index.js",
-    "singleton": "babel-node ./creational/singleton/president/index.js",
+    "factoryMethod:pizza": "babel-node ./creational/factoryMethod/pizza/index.js",
+    "prototype:copy": "babel-node ./creational/prototype/copy/index.js",
+    "singleton:president": "babel-node ./creational/singleton/president/index.js",
 
     "adapter": "babel-node ./structural/adapter/cookies/index.js",
     "bridge:ticTacToe": "babel-node ./structural/bridge/tic-tac-toe/index.js",

@@ -1,6 +1,6 @@
-import RequestPattern from "./request";
+import RequestBuilder from "./request";
 
-let requestBuilder = new RequestPattern();
+let requestBuilder = new RequestBuilder();
 requestBuilder
   .forUrl('https://example.com')
   .useMethod('POST')
