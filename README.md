@@ -17,7 +17,7 @@
   * [Приспособленец (Flyweight)](./structural/flyweight)
   * [Заместитель (Proxy)](./structural/proxy)
 * [Поведенческие шаблоны (Behavioral patterns)](./behavioral)
-  * [Цепочка обязанностей (Chain of responsibilily)](./behavioral/chainOfResponsibility)
+  * [Цепочка обязанностей (Chain of responsibility)](./behavioral/chainOfResponsibility)
   * [Команда (Command)](./behavioral/command)
   * [Интерпретатор (Interpreter)](./behavioral/interpreter)
   * [Итератор (Iterator)](./behavioral/iterator)
