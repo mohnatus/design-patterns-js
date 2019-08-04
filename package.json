@@ -37,7 +37,10 @@
     "mediator:traffic": "babel-node ./behavioral/mediator/traffic/index.js",
     "memento": "babel-node ./behavioral/memento/base/index.js",
     "observer": "babel-node ./behavioral/observer/station/index.js",
-    "state": "babel-node ./behavioral/state/order/index.js"
+    "state": "babel-node ./behavioral/state/order/index.js",
+    "strategy:ducks": "babel-node ./behavioral/strategy/ducks/index.js",
+    "strategy:discount": "babel-node ./behavioral/strategy/discount/index.js",
+    "visitor": "babel-node ./behavioral/visitor/bonus/index.js"
   },
   "repository": {
     "type": "git",

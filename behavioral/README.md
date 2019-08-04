@@ -22,5 +22,5 @@
 * Слуга (Servant)
 * [Состояние (State)](./state)
 * [Стратегия (Strategy)](./strategy)
-* Шаблонный метод (Template method)
-* Посетитель (Visitor)
+* [Шаблонный метод (Template method)](./template)
+* [Посетитель (Visitor)](./visitor)

@@ -1,4 +1,4 @@
-import { Quack, Squeak, MuteQuack } from './quackStrategies.js';
+import { Quack, Squeak, MuteQuack } from './quackStrategies';
 
 class Duck {
   quack() {
@@ -20,5 +20,4 @@ class RubberDuck extends Duck {
   }
 }
 
-let duck = new RubberDuck();
-duck.quack(); // 'squeak'
+export { CommonDuck, RubberDuck };
