@@ -1,14 +1,14 @@
 # Шаблоны проектирования (JavaScript)
 
-* [creational - порождающие шаблоны](./creational)
+* [Порождающие шаблоны (Creational patterns)](./creational)
   * [Абстрактная фабрика (Abstract factory)](./creational/abstractFactory)
   * [Строитель (Builder)](./creational/builder)
   * [Фабричный метод (Factory method)](./creational/factoryMethod)
   * [Отложенная инициализация (Lazy initialization)](./creational/lazyInitialization)
   * [Пул объектов (Object pool)](./creational/pool)
   * [Прототип (Prototype)](./creational/prototype)
-  * [Одиночка (Ssingleton)](./creational/singleton)
-* [structural - структурные шаблоны](./structural)
+  * [Одиночка (Singleton)](./creational/singleton)
+* [Структурные шаблоны (Structural patterns)](./structural)
   * [Адаптер (Adapter)](./structural/adapter)
   * [Мост (Bridge)](./structural/bridge)
   * [Компоновщик (Composite)](./structural/composite)
@@ -16,21 +16,18 @@
   * [Фасад (Facade)](./structural/facade)
   * [Приспособленец (Flyweight)](./structural/flyweight)
   * [Заместитель (Proxy)](./structural/proxy)
-* [behavioral - поведенческие шаблоны](./behavioral)
-  * Цепочка обязанностей (Chain of responsibilily)
+* [Поведенческие шаблоны (Behavioral patterns)](./behavioral)
+  * [Цепочка обязанностей (Chain of responsibilily)](./behavioral/chainOfResponsibility)
   * [Команда (Command)](./behavioral/command)
-  * Интерпретатор (Interpreter)
+  * [Интерпретатор (Interpreter)](./behavioral/interpreter)
   * [Итератор (Iterator)](./behavioral/iterator)
   * [Посредник (Mediator)](./behavioral/mediator)
-  * Хранитель (Memento)
-  * Null Object
+  * [Хранитель (Memento)](./behavioral/memento)
   * [Наблюдатель (Observer)](./behavioral/observer)
-  * Издатель-подписчик (Pub-Sub)
-  * Слуга (Servant)
-  * Состояние (State)
+  * [Состояние (State)](./behavioral/state)
   * [Стратегия (Strategy)](./behavioral/strategy)
-  * Шаблонный метод (Template method)
-  * Посетитель (Visitor)
+  * [Шаблонный метод (Template method)](./behavioral/template)
+  * [Посетитель (Visitor)](./behavioral/visitor)
 
 ## Источники
 
@@ -40,6 +37,6 @@
 * Просторы интернета
 
 ## Особенности языка
-Так как в JavaScript нет интерфейсов (и абстрактных классов), придется положиться на внимательность разработчиков и просто договориться о необходимом формате.
+В JavaScript нет интерфейсов и абстрактных классов. Поэтому соответствие структуры классов необходимому формату достигается в основном путем следования договоренностям. Разработчик определяет интерфейс (набор методов и свойств, которым должен обладать класс) и самостоятельно контролирует его соблюдение в каждом классе.
 
-В примерах интерфейс при необходимости будет описываться в комментариях со словом ```Interface```.
+В примерах интерфейс при необходимости будет описываться в комментариях со словом `Interface`.
