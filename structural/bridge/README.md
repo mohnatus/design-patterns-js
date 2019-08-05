@@ -23,7 +23,7 @@
 * [Крестики-нолики](./ticTacToe)
 * [Чернила в принтере](./printer)
 
-## Похожие паттерны
+## Похожие шаблоны
 
 * [Состояние (State)](../behavioral/state)
 * [Стратегия (Strategy)](../behavioral/strategy)
