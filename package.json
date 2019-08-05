@@ -21,7 +21,6 @@
     "bridge:printer": "babel-node ./structural/bridge/printer/index.js",
     "composite:kitchen": "babel-node ./structural/composite/kitchen/index.js",
     "decorator:coffee": "babel-node ./structural/decorator/coffee/index.js",
-    "decorator:interpreter": "babel-node ./structural/decorator/interpreter/index.js",
     "facade:cinema": "babel-node ./structural/facade/cinema/index.js",
     "facade:price": "babel-node ./structural/facade/price/index.js",
     "flyweight:game": "babel-node ./structural/flyweight/game/index.js",
