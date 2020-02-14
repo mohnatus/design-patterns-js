@@ -20,3 +20,7 @@
 ```
 npm run prototype:editor
 ```
+
+## Источник
+
+* [refactoring.guru](https://refactoring.guru/ru/design-patterns/prototype)
