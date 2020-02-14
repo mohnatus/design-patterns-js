@@ -21,7 +21,9 @@
     "prototype:copy": "babel-node ./creational/prototype/copy/index.js",
     "prototype:editor": "babel-node ./creational/prototype/editor/index.js",
     "singleton:president": "babel-node ./creational/singleton/president/index.js",
+
     "adapter:cookie": "babel-node ./structural/adapter/cookies/index.js",
+    "adapter:pegInHole": "babel-node ./structural/adapter/pegInHole/index.js",
     "bridge:ticTacToe": "babel-node ./structural/bridge/ticTacToe/index.js",
     "bridge:printer": "babel-node ./structural/bridge/printer/index.js",
     "composite:kitchen": "babel-node ./structural/composite/kitchen/index.js",
