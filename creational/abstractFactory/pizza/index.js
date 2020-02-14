@@ -2,7 +2,7 @@
  * Создание пиццы на Абстрактной фабрике
  */
 
-import { PepperoniPizzaFactory,  MushroomsPizzaFactory } from "./pizza-factory";
+import { MushroomsPizzaFactory, PepperoniPizzaFactory } from "./pizza-factory";
 
 console.log('\nPepperoni Pizza\n');
 
@@ -24,4 +24,3 @@ mushroomsFactory.createCheeze();
 mushroomsFactory.createAddition();
 mushroomsFactory.createMeat();
 mushroomsFactory.createDough();
-

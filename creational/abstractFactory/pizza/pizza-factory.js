@@ -1,23 +1,22 @@
-/* 
+import { FirmSauce, MozarellaCheeze, MustardSauce, PepperoniMeat, VeganCheeze } from './products';
+
+/**
+ * Абстрактная фабрика помнит, какие продукты нужно создать
+ */
+
+/*
 interface AbstractPizzaFactory {
-  createMeat() 
-  createSauce() 
-  createCheeze() 
-  createAddition() 
+  createMeat()
+  createSauce()
+  createCheeze()
+  createAddition()
   createDough()
 }
 */
 
-import { 
-  PepperoniMeat,
-  ChickenMeat,
-  MustardSauce,
-  FirmSauce,
-  MozarellaCheeze,
-  VeganCheeze,
-  MushroomsAddition,
-  PineappleAddition
-} from './products';
+/**
+ * Конкретные фабрики знают, как создавать каждый продукт
+ */
 
 class PepperoniPizzaFactory {
   createMeat() {
@@ -55,7 +54,4 @@ class MushroomsPizzaFactory {
   }
 }
 
-export {
-  PepperoniPizzaFactory,
-  MushroomsPizzaFactory
-};
+export { PepperoniPizzaFactory, MushroomsPizzaFactory };

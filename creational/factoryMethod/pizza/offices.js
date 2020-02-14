@@ -2,8 +2,12 @@
  * Фабричный метод сети пиццерий
  */
 
-import { NYPizza, ChicagoPizza } from './pizza.js';
+import { ChicagoPizza, NYPizza } from './pizza.js';
 
+/**
+ * Абстрактный Создатель,
+ * определяет пустой Фабричный Метод для дальнейшей реализации
+ */
 class CentralPizzaOffice {
   /**
    * Фабричный метод родительского класса не определен
@@ -15,10 +19,10 @@ class CentralPizzaOffice {
   }
 }
 
+/**
+ * Конкретные создатели сами решают, что им производить
+ */
 class NYPizzaOffice extends CentralPizzaOffice {
-  /**
-   * Дочерние классы сами решают, что им производить
-   */
   factoryMethod() {
     return new NYPizza();
   }

@@ -1,4 +1,9 @@
-import { NYPizzaOffice, ChicagoPizzaOffice } from "./offices";
+import { ChicagoPizzaOffice, NYPizzaOffice } from "./offices";
+
+/**
+ * Разные офисы - это Конкретные Создатели
+ * реализующие Фабричный метод по-своему
+ */
 
 let nyOffice = new NYPizzaOffice();
 let chicagoOffice = new ChicagoPizzaOffice();
@@ -8,8 +13,8 @@ let chicagoOffice = new ChicagoPizzaOffice();
  * достаточно вызвать метод getProduct()
  */
 
-let pizzaFromNYOffice = nyOffice.getProduct(); 
+let pizzaFromNYOffice = nyOffice.getProduct();
 console.log('Пицца из нью-йоркского офиса:', pizzaFromNYOffice.type);
 
-let pizzaFromChicagoOffice = chicagoOffice.getProduct(); 
+let pizzaFromChicagoOffice = chicagoOffice.getProduct();
 console.log('Пицца из чикагского офиса:', pizzaFromChicagoOffice.type);

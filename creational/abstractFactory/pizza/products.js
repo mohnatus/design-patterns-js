@@ -1,9 +1,13 @@
-/* 
+/** Группы продуктов */
+
+/*
 interface Meat {}
 interface Sauce {}
 interface Cheeze {}
 interface Addition {}
 */
+
+/** Конкретные продукты */
 
 class PepperoniMeat {
   constructor() { console.log('--pepperoni--'); }
@@ -33,13 +37,4 @@ class PineappleAddition {
   constructor() { console.log('--pineapple--'); }
 }
 
-export { 
-  PepperoniMeat,
-  ChickenMeat,
-  MustardSauce,
-  FirmSauce,
-  MozarellaCheeze,
-  VeganCheeze,
-  MushroomsAddition,
-  PineappleAddition
-}
+export { PepperoniMeat, ChickenMeat, MustardSauce, FirmSauce, MozarellaCheeze, VeganCheeze, MushroomsAddition, PineappleAddition };
