@@ -19,6 +19,7 @@
     "builder:building": "babel-node ./creational/builder/building/index.js",
     "builder:request": "babel-node ./creational/builder/request/index.js",
     "prototype:copy": "babel-node ./creational/prototype/copy/index.js",
+    "prototype:editor": "babel-node ./creational/prototype/editor/index.js",
     "singleton:president": "babel-node ./creational/singleton/president/index.js",
     "adapter:cookie": "babel-node ./structural/adapter/cookies/index.js",
     "bridge:ticTacToe": "babel-node ./structural/bridge/ticTacToe/index.js",
