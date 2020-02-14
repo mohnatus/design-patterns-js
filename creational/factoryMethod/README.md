@@ -25,6 +25,10 @@
 * [Источники](#источники)
 
 
+<p style="text-align: center">
+  <img src="./scheme/img.png" />
+</p>
+
 
 ## ![](../../ui/info.svg) Описание паттерна
 
