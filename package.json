@@ -7,7 +7,12 @@
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
   "scripts": {
     "abstractFactory:pizza": "babel-node ./creational/abstractFactory/pizza/index.js",
     "builder:building": "babel-node ./creational/builder/building/index.js",
@@ -15,7 +20,6 @@
     "factoryMethod:pizza": "babel-node ./creational/factoryMethod/pizza/index.js",
     "prototype:copy": "babel-node ./creational/prototype/copy/index.js",
     "singleton:president": "babel-node ./creational/singleton/president/index.js",
-
     "adapter:cookie": "babel-node ./structural/adapter/cookies/index.js",
     "bridge:ticTacToe": "babel-node ./structural/bridge/ticTacToe/index.js",
     "bridge:printer": "babel-node ./structural/bridge/printer/index.js",
@@ -26,7 +30,6 @@
     "flyweight:game": "babel-node ./structural/flyweight/game/index.js",
     "proxy:math": "babel-node ./structural/proxy/math/index.js",
     "proxy:car": "babel-node ./structural/proxy/car/index.js",
-
     "chainOfResponsibility:shopping": "babel-node ./behavioral/chainOfResponsibility/shopping/index.js",
     "command:house": "babel-node ./behavioral/command/smartHouse/index.js",
     "interpreter:math": "babel-node ./behavioral/interpreter/math/index.js",
