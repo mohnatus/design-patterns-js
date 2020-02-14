@@ -1,5 +1,3 @@
-[Главная](..)
-
 # Структурные шаблоны проектирования (Structural patterns)
 
 ## Что абстрагируется?
@@ -13,10 +11,10 @@
 
 ## Шаблоны
 
-* [Адаптер (Adapter)](./adapter)
-* [Мост (Bridge)](./bridge)
-* [Компоновщик (Composite)](./composite)
-* [Декоратор (Decorator)](./decorator)
-* [Фасад (Facade)](./facade)
-* [Приспособленец (Flyweight)](./flyweight)
-* [Заместитель (Proxy)](./proxy)
+* [Адаптер (Adapter)](./adapter#readme)
+* [Мост (Bridge)](./bridge#readme)
+* [Компоновщик (Composite)](./composite#readme)
+* [Декоратор (Decorator)](./decorator#readme)
+* [Фасад (Facade)](./facade#readme)
+* [Приспособленец (Flyweight)](./flyweight#readme)
+* [Заместитель (Proxy)](./proxy#readme)
